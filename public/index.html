@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suma de Matrices</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Suma de Matrices</h1>
+        <div class="input-section">
+            <label for="filas">Cantidad de Filas:</label>
+            <input type="number" id="filas">
+            <label for="columnas">Cantidad de Columnas:</label>
+            <input type="number" id="columnas">
+            <button class="btn confirm-btn mt-5" onclick="generarMatrices()">Confirmar</button>
+            <button class="btn refresh-btn" onclick="limpiarMatrices()">Refrescar</button>
+        </div>
+        <div class="matrices-section" id="matricesSection" style="display: none;">
+            <div class="matrix">
+                <h2>Matriz 1</h2>
+                <div id="matriz1"></div>
+            </div>
+            <div class="matrix">
+                <h2>Matriz 2</h2>
+                <div id="matriz2"></div>
+            </div>
+            <button class="btn sum-btn" onclick="sumarMatrices()">Sumar Matrices</button>
+            <h2>Matriz Resultante</h2>
+            <div id="resultado"></div>
+        </div>
+    </div>
+    <script src="cliente.js"></script>
+    </body>
+   
+</html>

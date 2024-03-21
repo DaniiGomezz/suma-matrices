@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    text-align: center;
+}
+
+.input-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-section label {
+    margin-right: 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.confirm-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    margin-right: 10px;
+}
+
+.refresh-btn {
+    background-color: #6c757d;
+    color: #fff;
+    border: none;
+}
+
+.matrices-section {
+    text-align: center;
+}
+
+.matrix {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+}
+
+.matrix h2 {
+    margin-top: 0;
+}
+
+.sum-btn {
+    margin-top: 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+}
